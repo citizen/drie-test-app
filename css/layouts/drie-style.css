@@ -1,0 +1,113 @@
+/* ~~~ Specific Styles for the drie site ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~ Built on top of the pure.css sytles for the marketing layout ~~~~~~~~~ */
+/* ~~~ Colours, grey: #2e3037 salmon: #f35b69 aqua: #39c0ba blue: #6d9eeb ~~~ */
+
+body {
+      font-family: "Quicksand";
+}
+
+a, a:visited {
+      color: white;
+      text-decoration: none;
+}
+
+.pure-menu-horizontal, .pure-menu.pure-menu-fixed {
+      border-bottom: 1px solid white;
+}
+
+.home-menu, .pure-menu-heading {
+      background-color: #2e3037;
+      font-size: 1.2em;
+      line-height: 0.7em;
+      text-transform: none;
+}
+
+.home-menu a, .pure-menu-heading a {
+      color: white;
+      margin-left: 30px;
+      padding: 0;
+}
+
+.pure-menu-heading img {
+      height: 55px;
+      float: left;
+}
+
+.pure-menu-heading h1 {
+      color: white;
+      font-size: 1.4em;
+      font-weight: 400;
+      line-height: 0.8em;
+      margin: 1.0em 0 0 0;
+      padding: 0; 
+      text-transform: none;
+}
+
+.splash-container {
+      background-color: #2e3037;
+      float: left;
+      margin: 0 auto;
+      height: 650px;
+      width: 100%;
+      position: relative; 
+}
+
+.splash-head {
+      margin-top: -5%;
+      padding: 0;
+      padding: 7%;
+}
+
+.splash {
+      position: absolute;
+      top: 0;
+      left: 0;
+}
+
+.splash-subhead {
+      color: white;
+      text-transform: none;
+}
+
+.mc-field-group {
+      width: 70%;
+      margin: 0 auto;
+}
+
+#mc_embed_signup_scroll {
+      width: 100%;
+}
+
+.mc-field-group label {
+      color: white;
+      display: block;
+      font-weight: 400;
+      opacity: 0.8;
+      margin-bottom: 10px;
+      text-transform: none;
+}
+
+#mce-EMAIL { 
+      width: 65%;
+      text-align: center;
+}
+
+#mc-embedded-subscribe {
+      background-color: #39c0ba;
+      width: 75%;
+      max-width: 150px;
+}
+
+.content-wrapper {
+      top: 650px;
+}
+
+h3.content-subhead {
+      color: #39c0ba;
+      font-family: "Quicksand"
+}
+
+.content p {
+      font-family: "Quicksand";
+}
+

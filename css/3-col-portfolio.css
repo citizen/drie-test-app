@@ -1,0 +1,45 @@
+/*!
+* drie.co 
+* Based on Start Bootstrap - 3 Col Portfolio HTML Template (http://startbootstrap.com)
+* Code licensed under the Apache License v2.0.
+* For details, see http://www.apache.org/licenses/LICENSE-2.0.
+*/
+
+    body {
+          background-color: lightcoral; 
+          padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    }
+
+    .portfolio-item {
+          margin-bottom: 25px;
+    }
+
+    footer {
+          margin: 50px 0;
+    }
+
+/* col-lg-12 any full width column for the page header */
+
+    .col-lg-12 h1 {
+          font-family: 'Quicksand', Arial, sans-serif;
+          font-size: 5em;
+    }
+
+/* this is not amazing for small viewports because of the width */
+/* col-md-4 is the middle set of 3 columns */    
+    .col-md-4 {
+          background-color: lightcoral;
+          border: 8px lightcoral solid; 
+          border-radius: 2%; 
+          font-family: 'Quicksand', Arial, sans-serif; 
+          height: 250px; 
+          /* not sure about next one: looks good on big and mobile but bit weird inbetween*/
+          max-width: 450px;
+          padding: 0 5%; 
+          text-align: center; 
+    }
+    
+    .col-md-4 h3 {
+          font-size: 4em;
+    }
+
